@@ -1,7 +1,9 @@
 body {
     font-family: "Inter", serif;
 }
-
+a{
+    text-decoration: none !important
+}
 .header {
 
     background: #afadad;
@@ -114,4 +116,47 @@ body {
     .box-footer{
         justify-content:center !important;
     }
+}
+
+
+.cs-floating {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    color: #00529C !important;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.cs-floating img {
+    margin-left: 15px;
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+}
+
+.cs-floating .box {
+    border-radius: 17.3244px 17.3244px 0px 17.3244px;
+    width: 140px;
+    color:#25445E ;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 10px 8px;    
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(17, 24, 39, .5);
+}
+
+@media(max-width:991px) {
+    .cs-floating img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .cs-floating .box {
+        width: 135px !important;
+        font-size: 9px !important;
+        padding: 10px 8px;
+    }
+
 }
