@@ -1,0 +1,117 @@
+body {
+    font-family: "Inter", serif;
+}
+
+.header {
+
+    background: #afadad;
+    width: 100%;
+    position: sticky;
+    top: 0;
+
+}
+
+.sub-header {
+    background-image: url('./bg-header.png');
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    background-position: center;
+}
+
+.header img {
+    width: 60px;
+}
+
+.header .btn-contact-me {
+    background: #fff !important;
+    box-shadow: unset !important;
+    outline: none !important;
+    border: 0 !important;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: #25445E !important;
+    text-decoration: none !important
+}
+
+.sub-header .box {
+    max-width: 600px;
+}
+
+.sub-header .title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+.sub-header .desc {
+    color: #fff;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.btn-primary-custom {
+    background: #25445E !important;
+    box-shadow: unset !important;
+    outline: none !important;
+    border: 0 !important;
+    font-size: 18px;
+    padding: 15px 25px;
+    color: #fff !important;
+    text-decoration: none !important
+}
+
+.footer {
+    background-image: url('./footer.png');
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0;
+
+    display: flex;
+    align-items: center;
+    background-position: center;
+}
+
+.footer .text {
+    font-size: 28px;
+    color: #fff;
+}
+
+@media(max-width:991px) {
+    .sub-header {
+        min-height: unset !important;
+    }
+
+    .sub-header .title {
+        font-size: 36px
+    }
+
+    .sub-header .desc {
+        font-size: 17px;
+    }
+
+    .btn-primary-custom {
+        font-size: 16px;
+    }
+
+    .header .btn-contact-me {
+        font-size: 14px;
+    }
+
+    .header img {
+        width: 50px
+    }
+    .footer .text {
+        text-align:center;
+        padding-bottom:20px;
+        font-size:24px;
+    }
+    .box-footer{
+        justify-content:center !important;
+    }
+}
