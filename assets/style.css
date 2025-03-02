@@ -1,5 +1,5 @@
 .nav-logo{
-    width:60px
+    width:80px
 }
 html,body{
     font-family: "Inter";
@@ -11,7 +11,7 @@ a{
 }
 
 .sub-heading{    
-    background:#25445E;
+    background:#082641;
     min-height:400px;
     display:flex;
     align-items:center;
@@ -30,9 +30,16 @@ a{
     opacity:0.9;
     font-size:18px
 }
+.bg-blue-100{
+    background:#F6FEFF !important;
+}
+
+.bg-gray-100{
+    background:#FAFAFA !important;
+}
 
 .about-us .title{
-    color:#25445E;
+    
     font-weight:600;
     font-size:30px
 }
@@ -82,7 +89,7 @@ a{
 }
 @media(max-width:991px){
     .nav-logo{
-        width: 40px;
+        width: 60px;
     }
     .footer .title{
         text-align:center;
@@ -187,4 +194,21 @@ a{
 .dropdown-menu-language a:hover{
     background:#25445E !important;
     color:#fff !important;
+}
+
+.relative{
+    position: relative;
+}
+.about-us .features .vector{
+    width:100px;
+    height:100px;
+    position: absolute !important;
+    right: 0;
+    bottom: 0;
+}
+
+@media(max-width:991px){
+    .case-studie-row{
+        flex-direction:column-reverse;
+    }
 }
